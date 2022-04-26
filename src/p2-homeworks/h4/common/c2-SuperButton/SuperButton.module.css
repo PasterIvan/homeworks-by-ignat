@@ -1,0 +1,12 @@
+.default {
+    display: inline-block;
+
+}
+
+.red {
+    display: inline-block;
+    list-style: none;
+    vertical-align: top;
+    border-radius: 6px;
+    background: red;
+}

@@ -1,0 +1,29 @@
+.greeting {
+    display: flex;
+    align-items: flex-start;
+    height: 40px;
+}
+.inputClass {
+    background: rgba(255, 255, 255, 0.5);
+    border: 1px solid green;
+    border-radius: 6px;
+    width: 200px;
+}
+
+.buttonClass {
+    display: inline-block;
+    border-radius: 6px;
+    background: rgba(255, 0, 255, 0.5);
+}
+
+.buttonError {
+    display: inline-block;
+    border-radius: 6px;
+    background: red;
+}
+.count {
+    display: inline-block;
+}
+
+
+
