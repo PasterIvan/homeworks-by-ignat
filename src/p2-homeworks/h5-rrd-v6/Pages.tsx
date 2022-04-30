@@ -11,7 +11,7 @@ export const PATH = {
 function Pages() {
     return (
         <div>
-            Routes выбирает первый подходящий роут
+           {/* Routes выбирает первый подходящий роут*/}
             <Routes>
 
                 в начале мы попадаем на страницу '/' и переходим сразу на страницу PRE_JUNIOR
