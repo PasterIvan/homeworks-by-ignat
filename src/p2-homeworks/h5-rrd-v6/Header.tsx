@@ -7,6 +7,8 @@ function Header() {
         <div>
             {/*// add NavLinks*/}
             <NavLink to={PATH.PRE_JUNIOR}>PreJunior</NavLink>
+            <NavLink to={PATH.JUNIOR}>Junior</NavLink>
+            <NavLink to={PATH.Junior_Plus}>Junior+</NavLink>
         </div>
     )
 }
