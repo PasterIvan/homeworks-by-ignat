@@ -1,0 +1,31 @@
+.preJun {
+    font-family: "Times New Roman";
+    font-size: x-large;
+    text-decoration: none;
+    padding: 5px;
+    color: green;
+}
+
+.jun {
+    font-family: "Times New Roman";
+    font-size: x-large;
+    text-decoration: none;
+    padding: 5px;
+    color: yellow;
+}
+
+.junPlus {
+    font-family: "Times New Roman";
+    font-size: x-large;
+    text-decoration: none;
+    padding: 5px;
+    color: red;
+}
+
+.menu {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-color: blue;
+    border-radius: 5px;
+}
