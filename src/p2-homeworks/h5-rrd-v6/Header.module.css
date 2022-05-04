@@ -1,31 +1,86 @@
+.nav{
+    position: relative;
+}
+.content {
+    display: block;
+    position: relative;
+    padding: 5px;
+    left: -330px;
+    transition: 0.4s;
+}
+
+.hiddenMT {
+    display: none;
+}
+
+.btnM {
+    background-color: rgba(77, 182, 77, 0.99);
+    position: absolute;
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    top: 5px;
+    left: 5px;
+    transition: 0.4s;
+}
+.btnM:hover {
+    box-shadow: 0 2px 5px black;
+}
+
+.hiddenMT:checked ~ .btnM {
+    left: 330px;
+}
+.hiddenMT:checked ~ .content {
+    left: 0;
+}
+
 .preJun {
+    display: inline-block;
+    width: 110px;
+    height: 35px;
     font-family: "Times New Roman";
     font-size: x-large;
     text-decoration: none;
-    padding: 5px;
+    text-align: center;
     color: green;
+}
+.active {
+    display: inline-block;
+    width: 110px;
+    height: 35px;
+    font-family: "Times New Roman";
+    font-size: xx-large;
+    text-align: center;
+    color: #00e8ff;
 }
 
 .jun {
+    display: inline-block;
+    width: 110px;
+    height: 35px;
     font-family: "Times New Roman";
     font-size: x-large;
     text-decoration: none;
-    padding: 5px;
+    text-align: center;
     color: yellow;
 }
 
 .junPlus {
+    display: inline-block;
+    width: 110px;
+    height: 35px;
     font-family: "Times New Roman";
     font-size: x-large;
     text-decoration: none;
-    padding: 5px;
+    text-align: center;
     color: red;
 }
 
+/*
 .menu {
     display: inline-block;
     width: 25px;
     height: 25px;
     background-color: blue;
     border-radius: 5px;
-}
+}*/
