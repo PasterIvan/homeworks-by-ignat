@@ -7,22 +7,22 @@ export type sortAT = {
 
 export type checkAT = {
     type: 'check'
-    payload:  number
+    payload: number
 }
 
 export type CounterReducerAT = sortAT | checkAT
 
-export const homeWorkReducer = (state:  Array<UserType>, action: CounterReducerAT): Array<UserType> => { // need to fix any
+export const homeWorkReducer = (state: Array<UserType>, action: CounterReducerAT): Array<UserType> => { // need to fix any
     switch (action.type) {
         case 'sort': {
             return action.payload === 'up'
-                ? [...state.sort((a,b)=>(a.name < b.name ? -1:1))]
-                : [...state.sort((a,b)=>(a.name > b.name ? -1:1))]
+                ? [...state.sort((a, b) => (a.name < b.name ? -1 : 1))]
+                : [...state.sort((a, b) => (a.name > b.name ? -1 : 1))]
         }
         case 'check': {
-            // need to fix
-            return state
+            return [...state.filter(u=> u.age>action.payload)]
         }
-        default: return state
+        default:
+            return state
     }
 }
