@@ -21,3 +21,21 @@
 .some-text {
     color: darkslateblue;
 }
+.blue{
+    background: mediumblue;
+}
+.blue-text {
+    color: wheat;
+}
+.silver{
+    background: silver;
+}
+.silver-text {
+    color: black;
+}
+.gold{
+    background: gold;
+}
+.gold-text {
+    color: brown;
+}
